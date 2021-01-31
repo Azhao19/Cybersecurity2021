@@ -1,1 +1,3 @@
-# Cybersecurity2021
+# codepath_homework
+
+See branches for assignments.
