@@ -21,13 +21,13 @@ Vulnerability #1: SQL Injection
 
 Description: SQL injection in query parameter.
 
-<img src="BlueVuln1.gif">
+<img src="BlueVuln2.gif">
 
 Vulnerability #2: Session Hijacking
 
 Description: Set session ID for admin. Intercept a non-user session through Burp and change session ID to gain admin access.
 
-<img src="BlueVuln2.gif">
+<img src="BlueVuln1.gif">
 
 ## Green
 
