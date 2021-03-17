@@ -19,7 +19,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQL Injection
 
-Description: SQL injection in 
+Description: SQL injection in query parameter.
 
 <img src="BlueVuln1.gif">
 
@@ -33,13 +33,13 @@ Description: Set session ID for admin. Intercept a non-user session through Burp
 
 Vulnerability #1: User Enumeration
 
-Description:
+Description: Bolded "login was unsuccessful" vs. unbolded "login was unsuccessful" when providing a valid username vs. invalid username.
 
 <img src="GreenVuln1.gif">
 
 Vulnerability #2: XSS
 
-Description:
+Description: Injected Javascript code into the feedback form.
 
 <img src="GreenVuln2.gif">
 
@@ -48,13 +48,13 @@ Description:
 
 Vulnerability #1: IDOR
 
-Description:
+Description: Can find invalidated employee records by changing ID parameter.
 
 <img src="RedVuln1.gif">
 
 Vulnerability #2: CSRF
 
-Description:
+Description: Uploaded a malicious link to change the data of the workers database.
 
 <img src="RedVuln2.gif">
 
