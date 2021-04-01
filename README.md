@@ -16,6 +16,8 @@ Deployed using GCP virtual machines.
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
+Dionaea attracts hackers on the Internet to itself and collects their IP and target port. If hackers deposit malware onto Dionaea, they are captured for me to  analyze.
+
 <img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
