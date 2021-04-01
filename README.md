@@ -10,13 +10,13 @@
 
 Deployed using GCP virtual machines.
 
-<img src="mhn-admin.gif">
+<img src="mhn-admin.mov">
 
 ### Dionaea Honeypot Deployment (Required)
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
-<img src="dionaea-honeypot">
+<img src="dionaea-honeypot.mov">
 
 ### Database Backup (Required) 
 
@@ -30,7 +30,7 @@ Deployed using GCP virtual machines.
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
-<img src="snort-honeypot">
+<img src="snort-honeypot.mov">
 
 ### Malware Capture and Identification (Optional)
 
@@ -42,7 +42,7 @@ MD5 Hash: *685bc2af410d86a742b59b96d116a7d9*
 
 SHA1 Hash: *17c237b3bd6b63effa1c309c91f7203300eb07e2*
 
-<img src="windows-malware">
+<img src="windows-malware.mov">
 
 ## Notes
 
