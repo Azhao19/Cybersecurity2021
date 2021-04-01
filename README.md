@@ -24,7 +24,7 @@ Dionaea attracts hackers on the Internet to itself and collects their IP and tar
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
+MHN-Admin uses mnemosyne. The file session.json records, for each attack, origin IP and port, destination port network protocol used, time of attack, the honeypot, and two identifiers.
 
 ### Deploying Additional Honeypot(s) (Optional)
 
@@ -32,13 +32,16 @@ Dionaea attracts hackers on the Internet to itself and collects their IP and tar
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
+Snort allows a security researcher to detect intrusions on various resources. This could be placed at various points in software infrastructure to see what hackers tend to target.
+
 <img src="snort-honeypot.gif">
 
 ### Malware Capture and Identification (Optional)
 
 #### Windows Malware
 
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+**Summary:** 
+I found the following Windows malware: https://malshare.com/sample.php?action=detail&hash=685bc2af410d86a742b59b96d116a7d9. It was listed on the Payloads tab on MHN-admin in my browswer. It was captured by Dionaea.
 
 MD5 Hash: *685bc2af410d86a742b59b96d116a7d9*
 
