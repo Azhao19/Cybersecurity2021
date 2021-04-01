@@ -6,7 +6,7 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+**Summary:**
 
 Deployed using GCP virtual machines.
 
@@ -14,7 +14,7 @@ Deployed using GCP virtual machines.
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Briefly in your own words, what does dionaea do?
+**Summary:** 
 
 Dionaea attracts hackers on the Internet to itself and collects their IP and target port. If hackers deposit malware onto Dionaea, they are captured for me to  analyze.
 
@@ -22,7 +22,7 @@ Dionaea attracts hackers on the Internet to itself and collects their IP and tar
 
 ### Database Backup (Required) 
 
-**Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
+**Summary:** 
 
 MHN-Admin uses mnemosyne. The file session.json records, for each attack, origin IP and port, destination port network protocol used, time of attack, the honeypot, and two identifiers.
 
